@@ -1,0 +1,33 @@
+.event-list {
+    list-style: none;
+    padding: 0;
+    color: #1a1a1a;
+  }
+  
+  .event-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-item h3 {
+    margin: 0;
+  }
+  
+  .event-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .event-item button:hover {
+    background-color: #c82333;
+  }
+  

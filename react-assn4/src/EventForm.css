@@ -1,0 +1,37 @@
+.event-form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    color: #1a1a1a;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group input[type="text"]:focus,
+  .form-group input[type="date"]:focus {
+    border-color: #4caf50;
+  }
+  
+  .input-error {
+    border-color: red;
+  }
+  
+  .error-msg {
+    color: red;
+    margin-top: 5px;
+  }
+  
